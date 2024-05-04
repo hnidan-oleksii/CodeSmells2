@@ -1,24 +1,29 @@
 package Part2.Task2;
 
 public class Order {
-    private String customer;
-    private double amount;
-    // Конструктор та інші методи класу...
+    private CustomerOrder customerOrder;
+
+    // Конструктор
     public Order(String customer, double amount) {
-        this.customer = customer;
-        this.amount = amount;
+        this.customerOrder = new CustomerOrder(customer, amount);
     }
+
+    // Делегування методів до класу CustomerOrder
     public String getCustomer() {
-        return customer;
+        return customerOrder.getCustomer();
     }
+
     public void setCustomer(String customer) {
-        this.customer = customer;
+        customerOrder.setCustomer(customer);
     }
+
     public double getAmount() {
-        return amount;
+        return customerOrder.getAmount();
     }
+
     public void setAmount(double amount) {
-        this.amount = amount;
+        customerOrder.setAmount(amount);
     }
+
     // Інші методи класу...
 }

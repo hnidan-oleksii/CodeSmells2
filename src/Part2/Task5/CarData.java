@@ -1,13 +1,9 @@
 package Part2.Task5;
 
 public class CarData {
-    private String[] carNames;
-    private int[] carPrices;
-    private int[] carYears;
-    public CarData(String[] carNames, int[] carPrices, int[] carYears) {
-        this.carNames = carNames;
-        this.carPrices = carPrices;
-        this.carYears = carYears;
+    private Car[] carData;
+    public CarData(Car[] carData) {
+        this.carData = carData;
     }
     // Додаткові методи для роботи з масивом...
 }

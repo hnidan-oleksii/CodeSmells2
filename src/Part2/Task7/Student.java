@@ -12,6 +12,7 @@ public class Student {
         this.courses = new ArrayList<>();
     }
     public void enrollCourse(Course course) {
+        course.enrollStudent(this);
         courses.add(course);
     }
     // Додаткові методи...

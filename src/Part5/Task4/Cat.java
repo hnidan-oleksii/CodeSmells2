@@ -1,7 +1,7 @@
 package Part5.Task4;
 
 class Cat extends Animal {
-    void makeSound() {
+    void meow() {
         System.out.println("Meow");
     }
 }

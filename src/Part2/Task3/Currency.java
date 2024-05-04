@@ -6,6 +6,11 @@ public class Currency {
     public Currency(String code) {
         this.code = code;
     }
+
+    public static Currency getInstance(String code) {
+        return CurrencyFactory.getCurrency(code);
+    }
+
     public String getCode() {
         return code;
     }

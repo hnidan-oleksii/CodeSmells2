@@ -8,14 +8,7 @@ public class Product {
         this.name = name;
     }
     public void process() {
-        if (typeCode == 1) {
-            // Поведінка для типу 1
-        } else if (typeCode == 2) {
-            // Поведінка для типу 2
-        } else {
-            // Поведінка за замовчуванням
-        }
+        // Поведінка за замовчуванням
     }
     // Додаткові методи...
 }
-

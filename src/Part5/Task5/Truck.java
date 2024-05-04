@@ -1,5 +1,6 @@
 package Part5.Task5;
 
 class Truck extends Vehicle {
-    // Клас Truck використовує лише поле model, а поле brand не використовується
+    // Клас Truck використовує лише поле brand, а поле model не використовується
+    protected String brand;
 }

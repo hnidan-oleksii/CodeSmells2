@@ -7,16 +7,17 @@ class CookingRecipe {
         cook();
         serve();
     }
-    private void boilWater() {
+
+    protected void boilWater() {
         System.out.println("Boiling water");
     }
-    private void addIngredients() {
+    protected void addIngredients() {
         System.out.println("Adding ingredients");
     }
-    private void cook() {
+    protected void cook() {
         System.out.println("Cooking");
     }
-    private void serve() {
+    protected void serve() {
         System.out.println("Serving");
     }
 }

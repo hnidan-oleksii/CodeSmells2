@@ -1,5 +1,7 @@
 package Part2.Task11;
 
+import java.awt.print.Book;
+import java.util.Collections;
 import java.util.List;
 
 public class Library {
@@ -8,10 +10,15 @@ public class Library {
         this.books = books;
     }
     public List<Book> getBooks() {
-        return books;
+        return Collections.unmodifiableList(books);
     }
-    public void setBooks(List<Book> books) {
-        this.books = books;
+
+    public void addBook(Book book) {
+        books.add(book);
+    }
+
+    public void removeBook(Book book) {
+        books.remove(book);
     }
 }
 

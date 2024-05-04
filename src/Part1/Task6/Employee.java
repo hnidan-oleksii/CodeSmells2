@@ -4,8 +4,12 @@ public class Employee {
     private String name;
     private Department department;
     // Конструктор та інші методи класу...
-    public String getDepartmentManagerName() {
-        return department.getManagerName();
+    public String getName() {
+        return name;
+    }
+
+    public Department getDepartment() {
+        return department;
     }
 }
 

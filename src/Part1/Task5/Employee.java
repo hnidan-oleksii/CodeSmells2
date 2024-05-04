@@ -7,5 +7,9 @@ public class Employee {
     public Department getDepartment() {
         return department;
     }
+
+    public Employee getManager(){
+        return department.getManager();
+    }
 }
 

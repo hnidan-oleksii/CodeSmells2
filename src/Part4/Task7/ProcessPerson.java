@@ -1,7 +1,7 @@
 package Part4.Task7;
 
 public class ProcessPerson {
-    public void process(String name, int age, String address) {
+    public void process(Person person) {
         // обробка об'єкта Person
     }
 }

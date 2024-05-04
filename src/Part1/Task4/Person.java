@@ -2,10 +2,11 @@ package Part1.Task4;
 
 public class Person {
     private String name;
-    private Address address;
+    private String street;
+    private String city;
+    private String country;
     // Конструктор, геттери та сеттери...
     public void printAddress() {
-        System.out.println("Address: " + address.getStreet() + ", " + address.getCity
-                () + ", " + address.getCountry());
+        System.out.println("Address: " + street + ", " + city + ", " + country);
     }
 }

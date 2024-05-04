@@ -1,5 +1,6 @@
 package Part5.Task2;
 
-class Animal {
+abstract class Animal {
+    public abstract void makeSound();
     // Суперклас Animal
 }

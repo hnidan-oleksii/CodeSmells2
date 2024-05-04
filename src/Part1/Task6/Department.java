@@ -7,5 +7,9 @@ public class Department {
     public String getManagerName() {
         return manager.getName();
     }
+
+    public Employee getManager() {
+        return manager;
+    }
 }
 

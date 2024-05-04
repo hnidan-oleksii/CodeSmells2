@@ -1,10 +1,11 @@
 package Part4.Task5;
 
 public class Calculator {
-    public int calculateSquare(int num) {
-        return num * num;
-    }
-    public int calculateCube(int num) {
-        return num * num * num;
+    public int calculatePower(int num, int power) {
+        int result = 1;
+        for (int i = 0; i < power; i++) {
+            result *= num;
+        }
+        return result;
     }
 }

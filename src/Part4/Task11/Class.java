@@ -1,5 +1,7 @@
 package Part4.Task11;
 
 public class Class {
-    // код може бути довільним
+    private void method(String str) {
+        System.out.println(str);
+    }
 }

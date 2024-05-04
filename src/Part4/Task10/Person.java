@@ -7,8 +7,6 @@ public class Person {
         this.name = name;
         this.age = age;
     }
-    public void setAge(int age) {
-        this.age = age;
-    }
+
     // Інші методи класу
 }
